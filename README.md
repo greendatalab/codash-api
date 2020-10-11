@@ -11,3 +11,9 @@ Este respositório contém o backend (API) da aplicação CODASH.
 ### optional
 - vscode
 
+## Libraries Project level
+
+- pandas
+- altair
+- vega_datasets
+- jupyterlab
