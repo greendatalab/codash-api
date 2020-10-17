@@ -24,22 +24,39 @@ git remote -v
 > Add Remote (Git Repository address) to Upstream 
 git remote add upstream "URL Project"
 
------------------------------------------
+----------------------------------------------------------
 Set up Users
  git config --global user.email "email@example.com.br"
  
 
 
-------------------------------------------
-Update local git project (Origin) - Rebase
+-----------------------------------------------------------
+--)  Changes and Add new features 
+
+git checkout -b add "newbranchname"git 
+
+git add "filename.txt"     << add file 
+git commit -m "message"	   << add message
+
+------------------------------------------------------------
+--) Update local git project (Origin) - Rebase
 
 branch name = main
 
 git checkout main    		<< Activate Branch
 git fetch upstream main		<< Save in cache
 git merge upstream/main		<< execute the merge
+-------------------------------------------------------------
 
--------------------------------------------
+--) Check your remotes:
+git remote -v
+
+>> Add remotes
+git remote add upstream "git url project"
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
 3) vscode
 
 In order to Open the VSCODE through the Bash 
@@ -63,7 +80,7 @@ a) Python
 5) Instal Python 
 python.org 
 
-----------------------------------------------------------------------------------------------------
+
 pip = Python Library Management 
 
 pip list = list all installed library 
