@@ -1,0 +1,133 @@
+Folder Projects:
+E:/Dicroiz Disk/Rodrigo Gomes/04 - FORMATIONS/03 - DATA SCIENCE/Dev
+git 
+cd 'E:/Dicroiz Disk/Rodrigo Gomes/04 - FORMATIONS/03 - DATA SCIENCE/Dev'
+
+----------------------------------------------------------------------------------------
+1) GitHub / Desktop
+
+a) New Project
+b) Existed Project 
+
+c) python Library 
+Documents 
+
+2) GitBash (UNIX) 
+
+for existed project:  
+> Copy the Project Files from Git hub  >> To my origin 
+Type: git clone "project path" 
+
+> Check Remote 
+git remote -v
+
+> Add Remote (Git Repository address) to Upstream 
+git remote add upstream "URL Project"
+
+----------------------------------------------------------
+Set up Users
+ git config --global user.email "email@example.com.br"
+ 
+
+
+-----------------------------------------------------------
+--)  Changes and Add new features 
+
+git checkout -b add "newbranchname"git 
+
+git add "filename.txt"     << add file 
+git commit -m "message"	   << add message
+
+------------------------------------------------------------
+--) Update local git project (Origin) - Rebase
+
+branch name = main
+
+git checkout main    		<< Activate Branch
+git fetch upstream main		<< Save in cache
+git merge upstream/main		<< execute the merge
+-------------------------------------------------------------
+
+--) Check your remotes:
+git remote -v
+
+>> Add remotes
+git remote add upstream "git url project"
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+3) vscode
+
+In order to Open the VSCODE through the Bash 
+
+	> get the vscode path 
+	C:\Users\Rodrigo\AppData\Local\Programs\Microsoft VS Code\bin
+	> Create windows system variable 
+	Name: code
+
+Open the project folder in the bash
+type 'code .' to open the VSCODE with all project files 
+
+Open: Project code .ipynb
+
+>> Trust Extensions 
+
+Install: 
+a) Python 
+
+
+5) Instal Python 
+python.org 
+
+
+pip = Python Library Management 
+
+pip list = list all installed library 
+
+command: pip install 'libraryname'   (you can use pip install 'libraryname1 libraryname2')
+
+Requested library:
+
+Generic: 
+>> virtualenv  (allow virtual environment management)
+
+
+For each Project: 
+>> pandas
+>> jupyterlab
+>> vega_datasets
+>> altair
+------------------------------------------------------------------------------------------------------
+6) Python LIBRARY essentials 
+
+	1) VIRTUALENV 
+
+	a) For each project YOU MUST create the Virtual Env folder 
+	type: python -m venv venv
+
+	to remove: rm -rf venv
+
+	b) activate Virtual Env 
+	source venv/Scripts/activate
+
+	Best Practices create virtual environment 
+
+------------------------------------------------------------------------------------------------------
+
+Important - 
+extensions 
+MARKDOWN All in One
+MARKDONW Preview Enchanced
+
+
+----------------------------------------------
+
+in order to check if installation went well 
+open cmd   //  open bash 
+type 'python --version'
+type 'pip --version'
+
+----------------------------------------------
+
+
